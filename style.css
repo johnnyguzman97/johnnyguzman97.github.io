@@ -1,0 +1,96 @@
+/* All styles for the header files */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 10%, #fad0c4 100%);
+    padding: 20px;
+    margin: 0;
+}
+
+/* Container and content styles */
+.container, .content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;  /* Adds a small margin after the paragraph */
+}
+
+/* Link (button) styles */
+a {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff6b6b;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 1.2em;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: #ff4c4c;
+    border-color: #ff6b6b; /* Button border on hover */
+}
+
+/* Square profile picture */
+img[src="roger.jpg"] {
+    width: 200px;            /* Set the size of the square image */
+    height: 200px;           /* Keep height equal to width for a square */
+    border-radius: 15px;     /* Add rounded corners but not circular */
+    object-fit: cover;       /* Ensures the image covers the square area */
+    margin-top: 10px;        /* Adds some space above the image */
+    margin-left: auto;       /* Centers image horizontally */
+    margin-right: auto;      /* Centers image horizontally */
+    display: block;          /* Makes image a block element to center properly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+}
+
+/* Bullet points for list items */
+ul {
+    list-style-type: disc; /* Ensures bullet points are shown */
+    padding-left: 20px;    /* Adds space between bullet points and text */
+    text-align: left;      /* Aligns the list to the left */
+    margin-top: 20px;
+}
+
+/* List item styles */
+li {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Image styles */
+img {
+    width: 100%;
+    max-width: 600px;  /* Maximum width of images */
+    height: auto;      /* Ensure the aspect ratio is maintained */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles within list items */
+ul img {
+    max-width: 400px;  /* Ensure images inside lists are smaller */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
